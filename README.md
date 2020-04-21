@@ -1,5 +1,4 @@
 # Asincronismo y pedidos HTTP - Buscador gatites
-<br>
 
 ## Consignas
 
@@ -10,6 +9,7 @@ Hacer funcionar las tabs, para eso, al hacer click en una tab, debería:
   - agregarsela al `li` del tab que fue clickead (TIP: usar `parentElement` para acceder al `li`)
   - agregar la clase `is-hidden` a todos los elementos con clase `tab-section`
   - sacarle la clase `is-hidden` al elemento *cuyo id corresponda con la propiedad href del elemento clickeado*
+<br>
   
 ### 2. Sección Random
 
@@ -17,7 +17,8 @@ Hacer funcionar la sección `Random`, para eso:
   - al cargar la página y al hacer click en el botón, debería cargar una nueva imagen de un gato
   - usar el siguiente endpoint: https://api.thecatapi.com/v1/images/search/
   - **EXTRA:** agregarle al botón la clase `is-loading` antes de hacer el pedido y sacársela cuando se obtiene la respuesta
-  
+<br>
+
 ### 3. Sección `Búsqueda de razas`
 
 Hacer la sección `Búsqueda de razas`, para eso:
@@ -26,7 +27,8 @@ Hacer la sección `Búsqueda de razas`, para eso:
   - con la respuesta, actualizar la tabla para mostrar los nombres de las razas
   - **EXTRA:** agregarle al botón y al input la clase `is-loading` antes de hacer el pedido y sacársela cuando se obtiene la respuesta
   - **EXTRA:** hacer que funcione cuando se da enter al escribir la búsqueda  
-  
+<br>
+
 ### 4. Sección `Razas`
 
 Hacer funcionar la sección `Razas`, para eso
@@ -42,5 +44,6 @@ Hacer funcionar la sección `Razas`, para eso
   - la imagen la obtenemos de https://api.thecatapi.com/v1/images/search?breed_ids=raza_id, donde `raza_id` es el id de la raza
   - al cargar la página, actualizar la info de la raza con la primera raza de la consulta
 
+<br>
 
 Si necesitan modificar el HTML pueden hacerlo
